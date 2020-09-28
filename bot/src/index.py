@@ -48,4 +48,4 @@ async def on_ready():
     await bot.change_presence(status=discord.Status.idle, activity=game)
     print('El Bot se encuentra encendido')
 
-bot.run('NzYwMjQ1NTc4NzY0MTI0MTY0.X3JP3g.1chmCII0eQYo1mJt3uPnSATORXw')
+bot.run('token')
