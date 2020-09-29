@@ -38,7 +38,7 @@ async def youtube(ctx, *, search):
     # print(html_content.read().decode())
     search_results = re.findall( r"watch\?v=(\S{11})", html_content.read().decode())
     print(search_results)
-    # I will put just the first result, you can loop the response to show more results
+    # Se mostrara el primer resultado de busqueda de videos
     await ctx.send('https://www.youtube.com/watch?v=' + search_results[0])
 
 #Eventos
