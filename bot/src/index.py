@@ -41,7 +41,7 @@ async def youtube(ctx, *, search):
     # Se mostrara el primer resultado de busqueda de videos
     await ctx.send('https://www.youtube.com/watch?v=' + search_results[0])
 
-#Eventos
+#eventos
 @bot.event
 async def on_ready():
     game = discord.Game('Aprendiendo algo nuevo')
