@@ -30,7 +30,7 @@ async def info(ctx):
 
     await ctx.send(embed=embed)
 
-#youtube
+#-youtube
 @bot.command()
 async def youtube(ctx, *, search):
     query_string = parse.urlencode({'search_query': search})
